@@ -1,0 +1,24 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.xiaopiao.aemore.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "patternprovidersave.refmap.json",
+  "mixins": [
+    "MEStorageMenuAccessor",
+    "crafter.CraftingHelperMixin",
+    "importcard.PatternProviderImportMixin",
+    "importcard.PatternProviderMenuMixin",
+    "importcard.ScreenStyleAccessor"
+  ],
+  "client": [
+    "crafter.MEStorageScreenMixin",
+    "importcard.PatternProviderScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
