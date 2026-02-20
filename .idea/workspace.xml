@@ -4,7 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb2792d1-f4a7-48e6-aefc-9457a68b8cf6" name="更改" comment="" />
+    <list default="true" id="eb2792d1-f4a7-48e6-aefc-9457a68b8cf6" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aehelpers_more/recipes/result_import_card.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/aemore.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/aemore.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/aemore.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/aemore.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/AEHelpersMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/AEHelpersMore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/client/AutoCraftingWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/client/AutoCraftingWatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/client/AutoInsertButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/client/AutoInsertButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/client/ImportCardClientHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/client/ImportCardClientHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/client/ImportCardScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/client/ImportCardScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/common/items/ImportCardItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/common/items/ImportCardItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/common/register/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/common/register/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/mixin/MEStorageMenuAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/MEStorageMenuAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/mixin/crafter/CraftingHelperMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/crafter/CraftingHelperMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/mixin/crafter/MEStorageScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/crafter/MEStorageScreenMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/mixin/importcard/PatternProviderImportMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/importcard/PatternProviderImportMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/mixin/importcard/PatternProviderMenuMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/importcard/PatternProviderMenuMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/mixin/importcard/PatternProviderScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/importcard/PatternProviderScreenMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/mixin/importcard/ScreenStyleAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/importcard/ScreenStyleAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/network/FillCraftingSlotPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/network/FillCraftingSlotPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/network/NetworkHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/network/NetworkHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/network/UpdateImportCardPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/network/UpdateImportCardPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/util/AHMCheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/util/AHMCheckBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/util/IPatternProviderUpgradeHost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/util/IPatternProviderUpgradeHost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/util/ImportCardConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/util/ImportCardConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/util/PatternProviderImportContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/util/PatternProviderImportContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/aehelpers_more.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/aehelpers_more.mixins.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +62,57 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="aemore" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="aemore" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="aemore" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="forgegradle runs" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="aemore" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mynamexiaopiao&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mynamexiaopiao/aehelpers-more.git&quot;,
+    &quot;accountId&quot;: &quot;d9f98e9c-e526-493a-aa6f-fae502d4bbb2&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -28,17 +121,54 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.D:/github/aehelpers-more [createMcpToSrg].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.aehelpers-more [createMcpToSrg].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.D:/github/aehelpers-more [createMcpToSrg].executor": "Run",
+    "Gradle.aehelpers-more [build].executor": "Run",
+    "Gradle.aehelpers-more [clean].executor": "Run",
+    "Gradle.aehelpers-more [createMcpToSrg].executor": "Run",
+    "Gradle.aehelpers-more [runClient].executor": "Run",
+    "Gradle.下载源代码.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/github/aehelpers-more/src/main/resources"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\aehelpers-more\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.aehelpers-more [build]">
+    <configuration name="aehelpers-more [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
     <configuration name="aehelpers-more [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -64,8 +194,35 @@
       <GradleCoverageDisabled>false</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
+    <configuration name="aehelpers-more [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.aehelpers-more [build]" />
+        <item itemvalue="Gradle.aehelpers-more [runClient]" />
         <item itemvalue="Gradle.aehelpers-more [clean]" />
       </list>
     </recent_temporary>
@@ -86,6 +243,17 @@
       <updated>1771568706982</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

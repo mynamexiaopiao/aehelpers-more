@@ -189,6 +189,7 @@ dependencies {
 //    implementation fg.deobf("curse.maven:advancedae-1084104:7159779")
 //    implementation fg.deobf("curse.maven:ex-pattern-provider-892005:7248944")
     implementation fg.deobf("curse.maven:applied-energistics-2-223794:7148487")
+
     implementation fg.deobf("curse.maven:guideme-1173950:7127447")
 //    implementation fg.deobf("curse.maven:ae2addonlib-1366135:7159767")
 //    implementation fg.deobf("curse.maven:more-ae2-additions-1241870:6896534")
