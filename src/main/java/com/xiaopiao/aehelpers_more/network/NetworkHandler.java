@@ -1,6 +1,8 @@
 package com.xiaopiao.aehelpers_more.network;
 
 import com.xiaopiao.aehelpers_more.AEHelpersMore;
+import com.xiaopiao.aehelpers_more.network.packet.FillCraftingSlotPacket;
+import com.xiaopiao.aehelpers_more.network.packet.UpdateImportCardPacket;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.PacketDistributor;

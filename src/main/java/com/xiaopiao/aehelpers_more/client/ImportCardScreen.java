@@ -1,7 +1,7 @@
 package com.xiaopiao.aehelpers_more.client;
 
 import com.xiaopiao.aehelpers_more.network.NetworkHandler;
-import com.xiaopiao.aehelpers_more.network.UpdateImportCardPacket;
+import com.xiaopiao.aehelpers_more.network.packet.UpdateImportCardPacket;
 import com.xiaopiao.aehelpers_more.util.AHMCheckBox;
 import com.xiaopiao.aehelpers_more.util.ImportCardConfig;
 import net.minecraft.client.gui.GuiGraphics;

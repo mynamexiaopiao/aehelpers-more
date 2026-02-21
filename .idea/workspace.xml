@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb2792d1-f4a7-48e6-aefc-9457a68b8cf6" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/aehelpers_more/recipes/result_import_card.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/client/ScreenManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/crafter/ExCraftingHelperMixin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
@@ -14,37 +15,21 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/aemore.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/aemore.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/aemore.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/aemore.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/AEHelpersMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/AEHelpersMore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/client/AutoCraftingWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/client/AutoCraftingWatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/client/AutoInsertButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/client/AutoInsertButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/client/ImportCardClientHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/client/ImportCardClientHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/client/ImportCardScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/client/ImportCardScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/common/items/ImportCardItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/common/items/ImportCardItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/common/register/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/common/register/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/mixin/MEStorageMenuAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/MEStorageMenuAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/mixin/crafter/CraftingHelperMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/crafter/CraftingHelperMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/mixin/crafter/MEStorageScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/crafter/MEStorageScreenMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/mixin/importcard/PatternProviderImportMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/importcard/PatternProviderImportMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/mixin/importcard/PatternProviderMenuMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/importcard/PatternProviderMenuMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/mixin/importcard/PatternProviderScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/importcard/PatternProviderScreenMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/mixin/importcard/ScreenStyleAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/importcard/ScreenStyleAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/network/FillCraftingSlotPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/network/FillCraftingSlotPacket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/network/NetworkHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/network/NetworkHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/network/UpdateImportCardPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/network/UpdateImportCardPacket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/util/AHMCheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/util/AHMCheckBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/util/IPatternProviderUpgradeHost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/util/IPatternProviderUpgradeHost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/util/ImportCardConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/util/ImportCardConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aemore/util/PatternProviderImportContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/util/PatternProviderImportContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/AEHelpersMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/AEHelpersMore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/client/AutoCraftingWatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/client/AutoCraftingWatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/client/ImportCardScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/client/ImportCardScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/MEStorageMenuAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/accessor/MEStorageMenuAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/crafter/MEStorageScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/crafter/MEStorageScreenMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/importcard/PatternProviderScreenMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/importcard/PatternProviderScreenMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/importcard/ScreenStyleAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/mixin/accessor/ScreenStyleAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/network/FillCraftingSlotPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/network/packet/FillCraftingSlotPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/network/NetworkHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/network/NetworkHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/network/UpdateImportCardPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaopiao/aehelpers_more/network/packet/UpdateImportCardPacket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/aehelpers_more.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/aehelpers_more.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +69,7 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="aemore" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="forgegradle runs" type="c8890929:TasksNode$1" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -97,6 +82,14 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,8 +120,11 @@
     "Gradle.aehelpers-more [build].executor": "Run",
     "Gradle.aehelpers-more [clean].executor": "Run",
     "Gradle.aehelpers-more [createMcpToSrg].executor": "Run",
-    "Gradle.aehelpers-more [runClient].executor": "Run",
+    "Gradle.aehelpers-more [runClient].executor": "Debug",
     "Gradle.下载源代码.executor": "Run",
+    "Gradle.构建 aehelpers-more.executor": "Run",
+    "JavaClassFindUsagesOptions.isFieldsUsages": "true",
+    "JavaClassFindUsagesOptions.isMethodsUsages": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -142,6 +138,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\github\aehelpers-more\src\main\resources" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="bang'wo" />
+    </option>
   </component>
   <component name="RunManager" selected="Gradle.aehelpers-more [build]">
     <configuration name="aehelpers-more [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">

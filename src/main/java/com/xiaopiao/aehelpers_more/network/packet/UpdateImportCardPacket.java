@@ -1,4 +1,4 @@
-package com.xiaopiao.aehelpers_more.network;
+package com.xiaopiao.aehelpers_more.network.packet;
 
 
 import com.xiaopiao.aehelpers_more.common.register.ModItems;
@@ -11,16 +11,7 @@ import net.minecraftforge.network.NetworkEvent;
 
 import java.util.function.Supplier;
 
-public class UpdateImportCardPacket {
-    private final ImportCardConfig config;
-
-    public UpdateImportCardPacket(ImportCardConfig config) {
-        this.config = config;
-    }
-
-    public ImportCardConfig getConfig() {
-        return config;
-    }
+public record UpdateImportCardPacket(ImportCardConfig config) {
 
     public static void encode(UpdateImportCardPacket packet, FriendlyByteBuf buffer) {
         CompoundTag tag = new CompoundTag();

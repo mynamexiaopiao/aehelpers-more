@@ -6,11 +6,12 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "aehelpers_more.refmap.json",
   "mixins": [
-    "MEStorageMenuAccessor",
+    "accessor.MEStorageMenuAccessor",
+    "accessor.ScreenStyleAccessor",
     "crafter.CraftingHelperMixin",
+    "crafter.ExCraftingHelperMixin",
     "importcard.PatternProviderImportMixin",
-    "importcard.PatternProviderMenuMixin",
-    "importcard.ScreenStyleAccessor"
+    "importcard.PatternProviderMenuMixin"
   ],
   "client": [
     "crafter.MEStorageScreenMixin",

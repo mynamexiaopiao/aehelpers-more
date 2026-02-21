@@ -1,4 +1,4 @@
-package com.xiaopiao.aehelpers_more.mixin;
+package com.xiaopiao.aehelpers_more.mixin.accessor;
 
 import appeng.api.networking.energy.IEnergySource;
 import appeng.menu.me.common.MEStorageMenu;

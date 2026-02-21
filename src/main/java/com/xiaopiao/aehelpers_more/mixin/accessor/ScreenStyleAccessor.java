@@ -1,4 +1,4 @@
-package com.xiaopiao.aehelpers_more.mixin.importcard;
+package com.xiaopiao.aehelpers_more.mixin.accessor;
 
 import appeng.client.gui.style.ScreenStyle;
 import appeng.client.gui.style.WidgetStyle;

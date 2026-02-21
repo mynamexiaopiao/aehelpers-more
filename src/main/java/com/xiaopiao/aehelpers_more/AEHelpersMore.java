@@ -22,6 +22,7 @@ public class AEHelpersMore {
 
     public static final String MODID = "aehelpers_more";
 
+    public static final ResourceLocation CACHE_INV = new ResourceLocation("ae2:cache_inv");
 
     public static final Logger LOGGER = LogUtils.getLogger();
 

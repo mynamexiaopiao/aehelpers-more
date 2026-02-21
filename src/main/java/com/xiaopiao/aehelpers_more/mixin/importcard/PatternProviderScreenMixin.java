@@ -11,6 +11,7 @@ import appeng.core.localization.GuiText;
 import appeng.menu.implementations.PatternProviderMenu;
 import appeng.parts.crafting.PatternProviderPart;
 import com.xiaopiao.aehelpers_more.AEHelpersMore;
+import com.xiaopiao.aehelpers_more.mixin.accessor.ScreenStyleAccessor;
 import com.xiaopiao.aehelpers_more.util.IPatternProviderUpgradeHost;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.player.Inventory;
@@ -55,7 +56,7 @@ public abstract class PatternProviderScreenMixin extends AEBaseScreen<PatternPro
                 upgradeStyle.setWidth(existingStyle.getWidth());
                 upgradeStyle.setHideEdge(existingStyle.isHideEdge());
             }
-//            if (ModList.get().isLoaded("extendedae_plus")){
+            if (ModList.get().isLoaded("extendedae_plus")){
                 upgradeStyle = new WidgetStyle();
                 upgradeStyle.setLeft(existingStyle.getLeft());
                 upgradeStyle.setRight(existingStyle.getRight() - 32);
@@ -63,7 +64,7 @@ public abstract class PatternProviderScreenMixin extends AEBaseScreen<PatternPro
                 upgradeStyle.setHeight(existingStyle.getHeight());
                 upgradeStyle.setWidth(existingStyle.getWidth());
                 upgradeStyle.setHideEdge(existingStyle.isHideEdge());
-//            }
+            }
 
             accessor.ae2helpers$getWidgets().put("importupgrades", upgradeStyle);
 
