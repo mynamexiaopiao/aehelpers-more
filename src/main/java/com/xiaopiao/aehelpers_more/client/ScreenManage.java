@@ -3,6 +3,7 @@ package com.xiaopiao.aehelpers_more.client;
 import appeng.client.gui.me.crafting.CraftingCPUScreen;
 import appeng.client.gui.me.items.CraftingTermScreen;
 import com.glodblock.github.extendedae.client.gui.GuiExCraftingTerminal;
+import com.xiaopiao.aehelpers_more.integration.PacketUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraftforge.event.TickEvent;
@@ -20,33 +21,34 @@ public class ScreenManage {
     public static void onClientTick(TickEvent.ClientTickEvent event) {
         Minecraft mc = Minecraft.getInstance();
 
-        Screen screen = mc.screen;
+        if (mc != null){
+            Screen screen = mc.screen;
 
-        if (screen == null) {
-            isCreatingScreen = false;
-            isCPUScreen = false;
-        }
+            if (screen == null) {
+                isCreatingScreen = false;
+                isCPUScreen = false;
+            }
 
-        if (screen instanceof CraftingTermScreen<?>){
-            isCreatingScreen = true;
-        }
-
-        if (ModList.get().isLoaded("expatternprovider")) {
-            if (screen instanceof GuiExCraftingTerminal){
+            if (screen instanceof CraftingTermScreen<?>){
                 isCreatingScreen = true;
             }
-        }
 
-
-        if (isCreatingScreen){
-            if (screen instanceof CraftingCPUScreen<?>){
-                isCPUScreen = true;
-                isCreatingScreen = false;
+            if (PacketUtil.isInstance(PacketUtil.GUIEXCRAFTINGTERMINAL , screen)){
+                isCreatingScreen = true;
             }
-        }
 
-        if (!isCPUScreen && !isCreatingScreen){
-            AutoCraftingWatcher.INSTANCE.clear();
+
+            if (isCreatingScreen){
+                if (screen instanceof CraftingCPUScreen<?>){
+                    isCPUScreen = true;
+                    isCreatingScreen = false;
+                }
+            }
+
+            if (!isCPUScreen && !isCreatingScreen){
+                AutoCraftingWatcher.INSTANCE.clear();
+            }
+
         }
 
     }

@@ -4,6 +4,7 @@ import appeng.api.stacks.AEKey;
 import appeng.client.gui.me.common.MEStorageScreen;
 import appeng.menu.SlotSemantics;
 import appeng.menu.me.common.IClientRepo;
+import appeng.menu.me.common.MEStorageMenu;
 import appeng.menu.me.items.CraftingTermMenu;
 import appeng.util.inv.AppEngInternalInventory;
 import com.glodblock.github.extendedae.container.ContainerExCraftingTerminal;
@@ -11,6 +12,7 @@ import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.math.Axis;
 import com.xiaopiao.aehelpers_more.AEHelpersMore;
 import com.xiaopiao.aehelpers_more.Config;
+import com.xiaopiao.aehelpers_more.integration.PacketUtil;
 import com.xiaopiao.aehelpers_more.network.packet.FillCraftingSlotPacket;
 import com.xiaopiao.aehelpers_more.network.NetworkHandler;
 import net.minecraft.client.Minecraft;
@@ -55,8 +57,6 @@ public class AutoCraftingWatcher {
         }
     }
 
-
-
     public void onScreenRemoved() {
         screenOpened = false;
     }
@@ -88,8 +88,8 @@ public class AutoCraftingWatcher {
 
 
             extracted(craftingSlots, repo);
-        }else if (ModList.get().isLoaded("expatternprovider")){
-            if (screen.getMenu() instanceof ContainerExCraftingTerminal menu ) {
+        }else if (PacketUtil.isInstance(PacketUtil.EXCRAFTINGHELPER , screen.getMenu())) {
+                MEStorageMenu menu = (MEStorageMenu) screen.getMenu();
                 var craftingSlots = menu.getSlots(SlotSemantics.CRAFTING_GRID);
                 craftingSlotsOffset = craftingSlots.get(0).index;
 
@@ -105,7 +105,7 @@ public class AutoCraftingWatcher {
 
                 extracted(craftingSlots, repo);
             }
-        }
+
     }
 
     private void extracted(List<Slot> craftingSlots, IClientRepo repo) {

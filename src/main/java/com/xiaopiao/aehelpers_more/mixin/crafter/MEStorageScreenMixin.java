@@ -9,6 +9,7 @@ import com.glodblock.github.extendedae.client.gui.GuiExCraftingTerminal;
 import com.glodblock.github.extendedae.container.ContainerExCraftingTerminal;
 import com.xiaopiao.aehelpers_more.client.AutoCraftingWatcher;
 import com.xiaopiao.aehelpers_more.client.AutoInsertButton;
+import com.xiaopiao.aehelpers_more.integration.PacketUtil;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.network.chat.Component;
@@ -47,15 +48,13 @@ public abstract class MEStorageScreenMixin<C extends MEStorageMenu> extends AEBa
     @Inject(method = "<init>(Lappeng/menu/me/common/MEStorageMenu;Lnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/network/chat/Component;Lappeng/client/gui/style/ScreenStyle;)V", at = @At("TAIL"))
     private void ae2extras$onInit(CallbackInfo ci) {
         var screen = (MEStorageScreen<?>) (Object) this;
-
         if (screen.getMenu() instanceof CraftingTermMenu) {
             this.addToLeftToolbar(new AutoInsertButton(this::ae2helpers$onToggleAutoInsert));
         }
-        if (ModList.get().isLoaded("expatternprovider")) {
-            if (screen.getMenu() instanceof ContainerExCraftingTerminal){
-                this.addToLeftToolbar(new AutoInsertButton(this::ae2helpers$onToggleAutoInsert));
-            }
+        if (PacketUtil.isInstance(PacketUtil.EXCRAFTINGHELPER , screen.getMenu())){
+            this.addToLeftToolbar(new AutoInsertButton(this::ae2helpers$onToggleAutoInsert));
         }
+
     }
     
     @Unique

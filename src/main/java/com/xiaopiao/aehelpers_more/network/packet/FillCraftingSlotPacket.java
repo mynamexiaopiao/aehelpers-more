@@ -6,10 +6,9 @@ import appeng.api.storage.StorageHelper;
 import appeng.menu.SlotSemantics;
 import appeng.menu.me.common.MEStorageMenu;
 import appeng.menu.me.items.CraftingTermMenu;
-import com.glodblock.github.extendedae.container.ContainerExCraftingTerminal;
 import com.xiaopiao.aehelpers_more.AEHelpersMore;
+import com.xiaopiao.aehelpers_more.integration.PacketUtil;
 import com.xiaopiao.aehelpers_more.mixin.accessor.MEStorageMenuAccessor;
-import com.xiaopiao.aehelpers_more.mixin.crafter.ExCraftingHelperMixin;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.item.ItemStack;
@@ -35,21 +34,28 @@ public record FillCraftingSlotPacket(int slotIndex, AEKey what) {
     public static void handle(FillCraftingSlotPacket packet, Supplier<NetworkEvent.Context> ctx) {
         ctx.get().enqueueWork(() -> {
             ServerPlayer player = ctx.get().getSender();
-            if (player != null && player.containerMenu instanceof CraftingTermMenu menu &&
-                    packet.what instanceof AEItemKey itemKey) {
-
-                   extracted(packet, menu, itemKey);
-            }else if (ModList.get().isLoaded("expatternprovider")) {
-                if (player != null && player.containerMenu instanceof ContainerExCraftingTerminal menu &&
+            if (player != null) {
+                // 处理标准AE2合成终端
+                if (player.containerMenu instanceof CraftingTermMenu menu &&
                         packet.what instanceof AEItemKey itemKey) {
-
                     extracted(packet, menu, itemKey);
                 }
+
+                handleExtendedAE(player, packet);
             }
 
         });
         ctx.get().setPacketHandled(true);
     }
+
+
+    private static void handleExtendedAE(ServerPlayer player, FillCraftingSlotPacket packet) {
+        if (PacketUtil.isInstance(PacketUtil.EXCRAFTINGHELPER , player.containerMenu) && packet.what instanceof AEItemKey itemKey) {
+            extracted(packet, (MEStorageMenu) player.containerMenu, itemKey);
+        }
+
+    }
+
 
     private static void extracted(FillCraftingSlotPacket packet, MEStorageMenu menu, AEItemKey itemKey) {
         if (packet.slotIndex < 0 || packet.slotIndex >= menu.slots.size()) return;
